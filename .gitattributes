@@ -1,0 +1,8 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have LF line endings on checkout, according to troubleshooting tips for Docker on Windows:
+# https://docs.docker.com/docker-for-windows/troubleshoot/#volumes 
+# In particular, see section "Avoid unexpected syntax errors, use Unix style line endings for files in containers".
+# Bash scripts
+*.sh text eol=lf
