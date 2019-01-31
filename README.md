@@ -1,4 +1,4 @@
-# docker-px-arcade
+# docker-pxt-arcade
 Docker image for [pxt-arcade](https://github.com/Microsoft/pxt-arcade) editor on Node.js server.
 
 Want to run your local copy of https://arcade.makecode.com or just having troubles building [pxt-arcade](https://github.com/Microsoft/pxt-arcade)?
@@ -8,8 +8,8 @@ Look no further.
 
 1. Execute:
 ```bash
-git clone https://github.com/iaroslavn/docker-px-arcade.git \
-&& cd docker-px-arcade \
+git clone https://github.com/iaroslavn/docker-pxt-arcade.git \
+&& cd docker-pxt-arcade \
 && docker build -t iaroslavn/pxt-arcade . \
 && docker run -p 3232:3232 --name pxt-arcade -d iaroslavn/pxt-arcade
 ```
